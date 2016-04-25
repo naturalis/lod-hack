@@ -1,0 +1,1 @@
+- catalog.rdf is the sitemap of BGBM
