@@ -27,6 +27,13 @@ import org.domainobject.util.http.SimpleHttpGet;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+/**
+ * Test class calling the BGBM REST service and converting it output to the NBA domain
+ * model
+ * 
+ * @author ayco
+ *
+ */
 public class BGBMTest {
 
 	public static void main(String[] args) throws Exception
@@ -53,30 +60,30 @@ public class BGBMTest {
 			Specimen specimen = new Specimen();
 			searchResult.addSearchResult(specimen);
 			specimen.setSourceSystem(SourceSystem.BGBM);
-			specimen.setSourceSystemId(get(record, CATALOGNUMBER));
-			specimen.setUnitID(get(record, CATALOGNUMBER));
-			specimen.setRecordURI(URI.create(get(record, OBJECTURI)));
-			specimen.setRecordBasis(get(record, BASEOFRECORDS));
+			specimen.setSourceSystemId(field(record, CATALOGNUMBER));
+			specimen.setUnitID(field(record, CATALOGNUMBER));
+			specimen.setRecordURI(URI.create(field(record, OBJECTURI)));
+			specimen.setRecordBasis(field(record, BASEOFRECORDS));
 			List<SpecimenIdentification> identifications = new ArrayList<>();
 			specimen.setIdentifications(identifications);
 			SpecimenIdentification identification = new SpecimenIdentification();
 			identifications.add(identification);
 			ScientificName sn = new ScientificName();
 			identification.setScientificName(sn);
-			sn.setFullScientificName(get(record, SCIENTIFICNAME));
+			sn.setFullScientificName(field(record, SCIENTIFICNAME));
 			List<Monomial> systemClassification = new ArrayList<>();
 			identification.setSystemClassification(systemClassification);
-			systemClassification.add(new Monomial(FAMILY, get(record, _FAMILY)));
-			systemClassification.add(new Monomial(GENUS, get(record, _GENUS)));
-			systemClassification.add(new Monomial(SPECIES, get(record, SPECIFICEPITHET)));
+			systemClassification.add(new Monomial(FAMILY, field(record, _FAMILY)));
+			systemClassification.add(new Monomial(GENUS, field(record, _GENUS)));
+			systemClassification.add(new Monomial(SPECIES, field(record, SPECIFICEPITHET)));
 			DefaultClassification dc = DefaultClassification
 					.fromSystemClassification(systemClassification);
 			identification.setDefaultClassification(dc);
 			GatheringEvent gathering = new GatheringEvent();
 			specimen.setGatheringEvent(gathering);
-			gathering.setLocality(get(record, LOCALITY));
+			gathering.setLocality(field(record, LOCALITY));
 			Person collector = new Person();
-			collector.setFullName(get(record, COLLECTOR));
+			collector.setFullName(field(record, COLLECTOR));
 			List<Agent> agents = new ArrayList<>();
 			agents.add(collector);
 			gathering.setGatheringAgents(agents);
@@ -85,7 +92,7 @@ public class BGBMTest {
 		Debug.print("/home/ayco/bgbm-output.txt", BeanPrinter.toString(searchResult));
 	}
 
-	private static String get(List record, int field)
+	private static String field(List record, int field)
 	{
 		return (String) record.get(field);
 	}
