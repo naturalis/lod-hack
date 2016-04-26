@@ -6,8 +6,13 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import nl.naturalis.nda.domain.DefaultClassification;
+import nl.naturalis.nda.domain.Monomial;
+import nl.naturalis.nda.domain.ScientificName;
 import nl.naturalis.nda.domain.SourceSystem;
 import nl.naturalis.nda.domain.Specimen;
+import nl.naturalis.nda.domain.SpecimenIdentification;
+import nl.naturalis.nda.domain.TaxonomicRank;
 
 import org.domainobject.util.debug.BeanPrinter;
 import org.domainobject.util.debug.Debug;
@@ -35,11 +40,34 @@ public class NHMTest {
 			Map data = (Map) iterator.next();
 			Specimen specimen = new Specimen();
 			specimen.setSourceSystem(SourceSystem.NHM);
-			specimen.setUnitID((String) data.get("occurrenceID"));
+			specimen.setUnitID(get(data, "occurrenceID"));
+			specimen.setRecordBasis(get(data, "basisOfRecord"));
+			ScientificName sn = new ScientificName();
+			String s = "scientificName";
+			sn.setFullScientificName(get(data, "scientificName"));
+			sn.setAuthorshipVerbatim(get(data, "scientificNameAuthorship"));
+			SpecimenIdentification si = new SpecimenIdentification();
+			si.setScientificName(sn);
+			List<Monomial> systemClassification = new ArrayList<>();
+			systemClassification.add(new Monomial(TaxonomicRank.KINGDOM, get(data, "kingdom")));
+			systemClassification.add(new Monomial(TaxonomicRank.PHYLUM, get(data, "phylum")));
+			systemClassification.add(new Monomial(TaxonomicRank.ORDER, get(data, "order")));
+			systemClassification.add(new Monomial(TaxonomicRank.FAMILY, get(data, "family")));
+			systemClassification.add(new Monomial(TaxonomicRank.GENUS, get(data, "genus")));
+			specimen.addIndentification(si);
 			specimens.add(specimen);
+			DefaultClassification dc = DefaultClassification
+					.fromSystemClassification(systemClassification);
+			si.setDefaultClassification(dc);
+
 			break;
 		}
 		Debug.print("/home/ayco/test.txt", BeanPrinter.toString(specimens));
 
+	}
+
+	private static String get(Map data, String s)
+	{
+		return (String) data.get(s);
 	}
 }
