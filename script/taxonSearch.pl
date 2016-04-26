@@ -6,9 +6,7 @@ use Bio::Phylo::PhyloWS::Client::NBA::TaxonSearch;
 
 # process command line arguments
 my $query;
-GetOptions(
-	'query=s'  => \$query,
-);
+GetOptions( 'query=s' => \$query );
 
 # instantiate helper objects
 my $ts  = Bio::Phylo::PhyloWS::Client::NBA::TaxonSearch->new;
