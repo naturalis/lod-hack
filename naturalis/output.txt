@@ -1,0 +1,251 @@
+(java.util.ArrayList$Itr) {
+	0: (nl.naturalis.nda.domain.Specimen) {
+		super: (nl.naturalis.nda.domain.NdaTraceableObject) {
+			super: (nl.naturalis.nda.domain.NdaDomainObject) {
+			}
+			sourceSystem: (nl.naturalis.nda.domain.SourceSystem) {
+				code: (String) "NHM"
+				name: (String) "NHM - Natural History Museum London"
+			}
+			sourceSystemId: (String) null
+			recordURI: (java.net.URI) null
+		}
+		unitID: (String) "48559ccb-150a-4ea0-8812-d5b1969c6bc3"
+		unitGUID: (String) null
+		collectorsFieldNumber: (String) null
+		assemblageID: (String) null
+		sourceInstitutionID: (String) null
+		sourceID: (String) null
+		owner: (String) null
+		licenseType: (String) null
+		license: (String) null
+		recordBasis: (String) "Specimen"
+		kindOfUnit: (String) null
+		collectionType: (String) null
+		typeStatus: (nl.naturalis.nda.domain.SpecimenTypeStatus) null
+		sex: (nl.naturalis.nda.domain.Sex) null
+		phaseOrStage: (nl.naturalis.nda.domain.PhaseOrStage) null
+		title: (String) null
+		notes: (String) null
+		preparationType: (String) null
+		numberOfSpecimen: (int) 0
+		fromCaptivity: (boolean) false
+		objectPublic: (boolean) false
+		multiMediaPublic: (boolean) false
+		acquiredFrom: (nl.naturalis.nda.domain.Agent) null
+		gatheringEvent: (nl.naturalis.nda.domain.GatheringEvent) null
+		identifications: (java.util.ArrayList$Itr) {
+			0: (nl.naturalis.nda.domain.SpecimenIdentification) {
+				super: (nl.naturalis.nda.domain.TaxonomicIdentification) {
+					taxonRank: (String) null
+					scientificName: (nl.naturalis.nda.domain.ScientificName) {
+						fullScientificName: (String) "Gallinago nigripennis Bonaparte, 1839"
+						taxonomicStatus: (nl.naturalis.nda.domain.TaxonomicStatus) null
+						genusOrMonomial: (String) null
+						subgenus: (String) null
+						specificEpithet: (String) null
+						infraspecificEpithet: (String) null
+						infraspecificMarker: (String) null
+						nameAddendum: (String) null
+						authorshipVerbatim: (String) "Bonaparte, 1839"
+						author: (String) null
+						year: (String) null
+						references: (java.util.List) null
+						experts: (java.util.List) null
+					}
+					defaultClassification: (nl.naturalis.nda.domain.DefaultClassification) {
+						kingdom: (String) "Animalia"
+						phylum: (String) "Chordata"
+						className: (String) null
+						order: (String) "Charadriiformes"
+						superFamily: (String) null
+						family: (String) "Scolopacidae"
+						genus: (String) "Gallinago"
+						subgenus: (String) null
+						specificEpithet: (String) null
+						infraspecificEpithet: (String) null
+						infraspecificRank: (String) null
+					}
+					systemClassification: (java.util.List) null
+					vernacularNames: (java.util.List) null
+					identificationQualifiers: (java.util.List) null
+					dateIdentified: (java.util.Date) null
+					identifiers: (java.util.List) null
+				}
+				preferred: (boolean) false
+				verificationStatus: (String) null
+				rockType: (String) null
+				associatedFossilAssemblage: (String) null
+				rockMineralUsage: (String) null
+				associatedMineralName: (String) null
+				remarks: (String) null
+			}
+		}
+		otherSpecimensInAssemblage: (java.util.List) null
+		associatedTaxa: (java.util.List) null
+	}
+	1: (nl.naturalis.nda.domain.Specimen) {
+		super: (nl.naturalis.nda.domain.NdaTraceableObject) {
+			super: (nl.naturalis.nda.domain.NdaDomainObject) {
+			}
+			sourceSystem: (nl.naturalis.nda.domain.SourceSystem) { /* Cyclical reference */ }
+			sourceSystemId: (String) null
+			recordURI: (java.net.URI) null
+		}
+		unitID: (String) "7fa44b57-4e78-4b3a-87e1-652087360237"
+		unitGUID: (String) null
+		collectorsFieldNumber: (String) null
+		assemblageID: (String) null
+		sourceInstitutionID: (String) null
+		sourceID: (String) null
+		owner: (String) null
+		licenseType: (String) null
+		license: (String) null
+		recordBasis: (String) "Specimen"
+		kindOfUnit: (String) null
+		collectionType: (String) null
+		typeStatus: (nl.naturalis.nda.domain.SpecimenTypeStatus) null
+		sex: (nl.naturalis.nda.domain.Sex) null
+		phaseOrStage: (nl.naturalis.nda.domain.PhaseOrStage) null
+		title: (String) null
+		notes: (String) null
+		preparationType: (String) null
+		numberOfSpecimen: (int) 0
+		fromCaptivity: (boolean) false
+		objectPublic: (boolean) false
+		multiMediaPublic: (boolean) false
+		acquiredFrom: (nl.naturalis.nda.domain.Agent) null
+		gatheringEvent: (nl.naturalis.nda.domain.GatheringEvent) null
+		identifications: (java.util.ArrayList$Itr) {
+			0: (nl.naturalis.nda.domain.SpecimenIdentification) {
+				super: (nl.naturalis.nda.domain.TaxonomicIdentification) {
+					taxonRank: (String) null
+					scientificName: (nl.naturalis.nda.domain.ScientificName) {
+						fullScientificName: (String) "Sylvia atricapilla atricapilla (Linnaeus, 1758)"
+						taxonomicStatus: (nl.naturalis.nda.domain.TaxonomicStatus) null
+						genusOrMonomial: (String) null
+						subgenus: (String) null
+						specificEpithet: (String) null
+						infraspecificEpithet: (String) null
+						infraspecificMarker: (String) null
+						nameAddendum: (String) null
+						authorshipVerbatim: (String) "(Linnaeus, 1758)"
+						author: (String) null
+						year: (String) null
+						references: (java.util.List) null
+						experts: (java.util.List) null
+					}
+					defaultClassification: (nl.naturalis.nda.domain.DefaultClassification) {
+						kingdom: (String) "Animalia"
+						phylum: (String) "Chordata"
+						className: (String) null
+						order: (String) "Passeriformes"
+						superFamily: (String) null
+						family: (String) "Sylviidae"
+						genus: (String) "Sylvia"
+						subgenus: (String) null
+						specificEpithet: (String) null
+						infraspecificEpithet: (String) null
+						infraspecificRank: (String) null
+					}
+					systemClassification: (java.util.List) null
+					vernacularNames: (java.util.List) null
+					identificationQualifiers: (java.util.List) null
+					dateIdentified: (java.util.Date) null
+					identifiers: (java.util.List) null
+				}
+				preferred: (boolean) false
+				verificationStatus: (String) null
+				rockType: (String) null
+				associatedFossilAssemblage: (String) null
+				rockMineralUsage: (String) null
+				associatedMineralName: (String) null
+				remarks: (String) null
+			}
+		}
+		otherSpecimensInAssemblage: (java.util.List) null
+		associatedTaxa: (java.util.List) null
+	}
+	2: (nl.naturalis.nda.domain.Specimen) {
+		super: (nl.naturalis.nda.domain.NdaTraceableObject) {
+			super: (nl.naturalis.nda.domain.NdaDomainObject) {
+			}
+			sourceSystem: (nl.naturalis.nda.domain.SourceSystem) { /* Cyclical reference */ }
+			sourceSystemId: (String) null
+			recordURI: (java.net.URI) null
+		}
+		unitID: (String) "745a62ae-01ae-4bd5-abe1-0dd161c639a2"
+		unitGUID: (String) null
+		collectorsFieldNumber: (String) null
+		assemblageID: (String) null
+		sourceInstitutionID: (String) null
+		sourceID: (String) null
+		owner: (String) null
+		licenseType: (String) null
+		license: (String) null
+		recordBasis: (String) "Specimen"
+		kindOfUnit: (String) null
+		collectionType: (String) null
+		typeStatus: (nl.naturalis.nda.domain.SpecimenTypeStatus) null
+		sex: (nl.naturalis.nda.domain.Sex) null
+		phaseOrStage: (nl.naturalis.nda.domain.PhaseOrStage) null
+		title: (String) null
+		notes: (String) null
+		preparationType: (String) null
+		numberOfSpecimen: (int) 0
+		fromCaptivity: (boolean) false
+		objectPublic: (boolean) false
+		multiMediaPublic: (boolean) false
+		acquiredFrom: (nl.naturalis.nda.domain.Agent) null
+		gatheringEvent: (nl.naturalis.nda.domain.GatheringEvent) null
+		identifications: (java.util.ArrayList$Itr) {
+			0: (nl.naturalis.nda.domain.SpecimenIdentification) {
+				super: (nl.naturalis.nda.domain.TaxonomicIdentification) {
+					taxonRank: (String) null
+					scientificName: (nl.naturalis.nda.domain.ScientificName) {
+						fullScientificName: (String) "Megalurus palustris toklao (Blyth, 1843)"
+						taxonomicStatus: (nl.naturalis.nda.domain.TaxonomicStatus) null
+						genusOrMonomial: (String) null
+						subgenus: (String) null
+						specificEpithet: (String) null
+						infraspecificEpithet: (String) null
+						infraspecificMarker: (String) null
+						nameAddendum: (String) null
+						authorshipVerbatim: (String) "(Blyth, 1843)"
+						author: (String) null
+						year: (String) null
+						references: (java.util.List) null
+						experts: (java.util.List) null
+					}
+					defaultClassification: (nl.naturalis.nda.domain.DefaultClassification) {
+						kingdom: (String) "Animalia"
+						phylum: (String) "Chordata"
+						className: (String) null
+						order: (String) "Passeriformes"
+						superFamily: (String) null
+						family: (String) "Sylviidae"
+						genus: (String) "Megalurus"
+						subgenus: (String) null
+						specificEpithet: (String) null
+						infraspecificEpithet: (String) null
+						infraspecificRank: (String) null
+					}
+					systemClassification: (java.util.List) null
+					vernacularNames: (java.util.List) null
+					identificationQualifiers: (java.util.List) null
+					dateIdentified: (java.util.Date) null
+					identifiers: (java.util.List) null
+				}
+				preferred: (boolean) false
+				verificationStatus: (String) null
+				rockType: (String) null
+				associatedFossilAssemblage: (String) null
+				rockMineralUsage: (String) null
+				associatedMineralName: (String) null
+				remarks: (String) null
+			}
+		}
+		otherSpecimensInAssemblage: (java.util.List) null
+		associatedTaxa: (java.util.List) null
+	}
+}

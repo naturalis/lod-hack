@@ -1,0 +1,983 @@
+(java.util.LinkedHashMap[7]) {
+	"_backend" => (String) "datasolr"
+	"resource_id" => (String) "05ff2255-c38a-40c9-b657-4ccb55ab2feb"
+	"fields" => (java.util.ArrayList$Itr) {
+		0: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "minimumDepthInMeters"
+		}
+		1: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "recordType"
+		}
+		2: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "mineralComplex"
+		}
+		3: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "verbatimLatitude"
+		}
+		4: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "month"
+		}
+		5: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "continent"
+		}
+		6: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "registeredWeight"
+		}
+		7: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "collectionName"
+		}
+		8: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "uuid"
+			"id" => (String) "occurrenceID"
+		}
+		9: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "clutchSize"
+		}
+		10: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "latestEpochOrHighestSeries"
+		}
+		11: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "texture"
+		}
+		12: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "recoveryWeight"
+		}
+		13: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "maximumDepthInMeters"
+		}
+		14: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "waterBody"
+		}
+		15: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "nested"
+			"id" => (String) "determinations"
+		}
+		16: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "meteoriteGroup"
+		}
+		17: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "kingdom"
+		}
+		18: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "float8"
+			"id" => (String) "decimalLatitude"
+		}
+		19: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "earliestEraOrLowestErathem"
+		}
+		20: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "identificationAsRegistered"
+		}
+		21: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "infraspecificEpithet"
+		}
+		22: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "plantDescription"
+		}
+		23: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "lithostratigraphy"
+		}
+		24: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "latestEraOrHighestErathem"
+		}
+		25: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "recordNumber"
+		}
+		26: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "day"
+		}
+		27: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "individualCount"
+		}
+		28: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "donorName"
+		}
+		29: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "lifeStage"
+		}
+		30: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "chondriteAchondrite"
+		}
+		31: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "viceCounty"
+		}
+		32: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "scientificName"
+		}
+		33: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "exsiccati"
+		}
+		34: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "tectonicProvince"
+		}
+		35: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "lowestBiostratigraphicZone"
+		}
+		36: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "occurrence"
+		}
+		37: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "habitat"
+		}
+		38: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "identificationVariety"
+		}
+		39: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "setMark"
+		}
+		40: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "sex"
+		}
+		41: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "year"
+		}
+		42: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "chronostratigraphy"
+		}
+		43: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "eventTime"
+		}
+		44: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "partType"
+		}
+		45: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "latestEonOrHighestEonothem"
+		}
+		46: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "otherCatalogNumbers"
+		}
+		47: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "latestPeriodOrHighestSystem"
+		}
+		48: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "exsiccatiNumber"
+		}
+		49: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "bool"
+			"id" => (String) "centroid"
+		}
+		50: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "kindOfCollection"
+		}
+		51: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "specificEpithet"
+		}
+		52: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "dateRegistered"
+		}
+		53: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "identificationOther"
+		}
+		54: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "geodeticDatum"
+		}
+		55: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "barcode"
+		}
+		56: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "collectionCode"
+		}
+		57: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "higherGeography"
+		}
+		58: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "latestAgeOrHighestStage"
+		}
+		59: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "formation"
+		}
+		60: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "earliestEpochOrLowestSeries"
+		}
+		61: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "group"
+		}
+		62: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "highestBiostratigraphicZone"
+		}
+		63: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "petrologyType"
+		}
+		64: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "earliestAgeOrLowestStage"
+		}
+		65: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "created"
+		}
+		66: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "country"
+		}
+		67: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "meteoriteType"
+		}
+		68: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "float8"
+			"id" => (String) "decimalLongitude"
+		}
+		69: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "nestShape"
+		}
+		70: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "relationshipOfResource"
+		}
+		71: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "genus"
+		}
+		72: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "preparationType"
+		}
+		73: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "family"
+		}
+		74: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "nested"
+			"id" => (String) "associatedMedia"
+		}
+		75: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "phylum"
+		}
+		76: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "subDepartment"
+		}
+		77: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "cultivated"
+		}
+		78: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "hostRock"
+		}
+		79: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "kindOfObject"
+		}
+		80: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "higherClassification"
+		}
+		81: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "ageType"
+		}
+		82: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "islandGroup"
+		}
+		83: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "identificationDescription"
+		}
+		84: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "resuspendedIn"
+		}
+		85: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "catalogNumber"
+		}
+		86: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "verbatimLongitude"
+		}
+		87: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "nestSite"
+		}
+		88: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "miningDistrict"
+		}
+		89: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "preparations"
+		}
+		90: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "mine"
+		}
+		91: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "maximumElevationInMeters"
+		}
+		92: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "relatedResourceID"
+		}
+		93: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "earliestEonOrLowestEonothem"
+		}
+		94: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "modified"
+		}
+		95: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "bed"
+		}
+		96: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "island"
+		}
+		97: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "minimumElevationInMeters"
+		}
+		98: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "totalVolume"
+		}
+		99: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "maxError"
+		}
+		100: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "geologyRegion"
+		}
+		101: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "subgenus"
+		}
+		102: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "petrologySubtype"
+		}
+		103: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "expedition"
+		}
+		104: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "institutionCode"
+		}
+		105: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "identificationQualifier"
+		}
+		106: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "identifiedBy"
+		}
+		107: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "earliestPeriodOrLowestSystem"
+		}
+		108: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "preservative"
+		}
+		109: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "georeferenceProtocol"
+		}
+		110: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "recovery"
+		}
+		111: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "locality"
+		}
+		112: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "stateProvince"
+		}
+		113: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "member"
+		}
+		114: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "populationCode"
+		}
+		115: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "taxonRank"
+		}
+		116: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "catalogueDescription"
+		}
+		117: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "depositType"
+		}
+		118: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "recoveryDate"
+		}
+		119: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "registeredWeightUnit"
+		}
+		120: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "typeStatus"
+		}
+		121: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "recordedBy"
+		}
+		122: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "class"
+		}
+		123: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "collectionKind"
+		}
+		124: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "commodity"
+		}
+		125: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "age"
+		}
+		126: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "basisOfRecord"
+		}
+		127: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "dateIdentified"
+		}
+		128: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "observedWeight"
+		}
+		129: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "registrationCode"
+		}
+		130: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "scientificNameAuthorship"
+		}
+		131: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "int4"
+			"id" => (String) "_id"
+		}
+		132: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "extractionMethod"
+		}
+		133: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "order"
+		}
+		134: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "meteoriteClass"
+		}
+		135: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "labelLocality"
+		}
+		136: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "citext"
+			"id" => (String) "gbifIssue"
+		}
+		137: (java.util.LinkedHashMap[2]) {
+			"type" => (String) "int4"
+			"id" => (String) "gbifID"
+		}
+	}
+	"q" => (String) "egg"
+	"records" => (java.util.ArrayList$Itr) {
+		0: (java.util.LinkedHashMap[138]) {
+			"minimumDepthInMeters" => null
+			"recordType" => (String) "Egg"
+			"mineralComplex" => null
+			"verbatimLatitude" => null
+			"month" => null
+			"continent" => null
+			"member" => null
+			"collectionName" => null
+			"occurrenceID" => (String) "48559ccb-150a-4ea0-8812-d5b1969c6bc3"
+			"family" => (String) "Scolopacidae"
+			"gbifIssue" => null
+			"latestEpochOrHighestSeries" => null
+			"texture" => null
+			"recoveryWeight" => null
+			"maximumDepthInMeters" => null
+			"waterBody" => null
+			"determinations" => null
+			"meteoriteGroup" => null
+			"kingdom" => (String) "Animalia"
+			"decimalLatitude" => null
+			"earliestEraOrLowestErathem" => null
+			"identificationAsRegistered" => null
+			"infraspecificEpithet" => null
+			"plantDescription" => null
+			"lithostratigraphy" => null
+			"latestEraOrHighestErathem" => null
+			"recordNumber" => null
+			"day" => null
+			"individualCount" => null
+			"donorName" => null
+			"lifeStage" => (String) "egg"
+			"chondriteAchondrite" => null
+			"viceCounty" => null
+			"scientificName" => (String) "Gallinago nigripennis Bonaparte, 1839"
+			"exsiccati" => null
+			"tectonicProvince" => null
+			"lowestBiostratigraphicZone" => null
+			"occurrence" => null
+			"habitat" => null
+			"identificationVariety" => null
+			"setMark" => (String) "D"
+			"sex" => null
+			"year" => null
+			"chronostratigraphy" => null
+			"eventTime" => null
+			"partType" => null
+			"latestEonOrHighestEonothem" => null
+			"otherCatalogNumbers" => (String) "NHMUK:ecatalogue:3764994"
+			"latestPeriodOrHighestSystem" => null
+			"exsiccatiNumber" => null
+			"centroid" => (Boolean) false
+			"kindOfCollection" => null
+			"specificEpithet" => (String) "nigripennis"
+			"dateRegistered" => null
+			"identificationOther" => null
+			"geodeticDatum" => null
+			"barcode" => null
+			"collectionCode" => (String) "ZOO"
+			"higherGeography" => (String) "Kenya"
+			"latestAgeOrHighestStage" => null
+			"formation" => null
+			"earliestEpochOrLowestSeries" => null
+			"group" => null
+			"highestBiostratigraphicZone" => null
+			"petrologyType" => null
+			"earliestAgeOrLowestStage" => null
+			"created" => (String) "2007-05-28"
+			"country" => (String) "Kenya"
+			"meteoriteType" => null
+			"decimalLongitude" => null
+			"nestShape" => null
+			"relationshipOfResource" => (String) "Parts"
+			"genus" => (String) "Gallinago"
+			"preparationType" => null
+			"clutchSize" => (String) "4"
+			"associatedMedia" => null
+			"phylum" => (String) "Chordata"
+			"subDepartment" => (String) "Aves"
+			"cultivated" => null
+			"hostRock" => null
+			"kindOfObject" => (String) "egg"
+			"higherClassification" => (String) "Animalia; Chordata; Vertebrata; Aves; Charadriiformes; Scolopacidae; Gallinagininae"
+			"ageType" => null
+			"islandGroup" => null
+			"identificationDescription" => null
+			"resuspendedIn" => null
+			"catalogNumber" => (String) "E/1998.72.374"
+			"verbatimLongitude" => null
+			"nestSite" => null
+			"miningDistrict" => null
+			"preparations" => null
+			"identificationQualifier" => null
+			"maximumElevationInMeters" => null
+			"relatedResourceID" => (String) "48559ccb-150a-4ea0-8812-d5b1969c6bc3"
+			"earliestEonOrLowestEonothem" => null
+			"modified" => (String) "2010-02-02"
+			"bed" => null
+			"island" => null
+			"minimumElevationInMeters" => null
+			"totalVolume" => null
+			"maxError" => null
+			"geologyRegion" => null
+			"subgenus" => null
+			"petrologySubtype" => null
+			"expedition" => null
+			"institutionCode" => (String) "NHMUK"
+			"mine" => null
+			"gbifID" => (String) "1056949421"
+			"identifiedBy" => null
+			"earliestPeriodOrLowestSystem" => null
+			"preservative" => null
+			"georeferenceProtocol" => null
+			"recovery" => null
+			"locality" => null
+			"stateProvince" => null
+			"registeredWeight" => null
+			"populationCode" => null
+			"taxonRank" => null
+			"catalogueDescription" => null
+			"depositType" => null
+			"recoveryDate" => null
+			"registeredWeightUnit" => null
+			"typeStatus" => null
+			"scientificNameAuthorship" => (String) "Bonaparte, 1839"
+			"class" => (String) "Aves"
+			"collectionKind" => (String) "Egg"
+			"commodity" => null
+			"age" => null
+			"basisOfRecord" => (String) "Specimen"
+			"dateIdentified" => null
+			"observedWeight" => null
+			"registrationCode" => (String) "AV"
+			"recordedBy" => null
+			"_id" => (Integer) 80
+			"extractionMethod" => null
+			"order" => (String) "Charadriiformes"
+			"meteoriteClass" => null
+			"labelLocality" => null
+		}
+		1: (java.util.LinkedHashMap[138]) {
+			"minimumDepthInMeters" => null
+			"recordType" => (String) "Egg"
+			"mineralComplex" => null
+			"verbatimLatitude" => null
+			"month" => null
+			"continent" => null
+			"member" => null
+			"collectionName" => null
+			"occurrenceID" => (String) "7fa44b57-4e78-4b3a-87e1-652087360237"
+			"family" => (String) "Sylviidae"
+			"gbifIssue" => null
+			"latestEpochOrHighestSeries" => null
+			"texture" => null
+			"recoveryWeight" => null
+			"maximumDepthInMeters" => null
+			"waterBody" => null
+			"determinations" => null
+			"meteoriteGroup" => null
+			"kingdom" => (String) "Animalia"
+			"decimalLatitude" => null
+			"earliestEraOrLowestErathem" => null
+			"identificationAsRegistered" => null
+			"infraspecificEpithet" => (String) "atricapilla"
+			"plantDescription" => null
+			"lithostratigraphy" => null
+			"latestEraOrHighestErathem" => null
+			"recordNumber" => null
+			"day" => null
+			"individualCount" => null
+			"donorName" => null
+			"lifeStage" => (String) "egg"
+			"chondriteAchondrite" => null
+			"viceCounty" => null
+			"scientificName" => (String) "Sylvia atricapilla atricapilla (Linnaeus, 1758)"
+			"exsiccati" => null
+			"tectonicProvince" => null
+			"lowestBiostratigraphicZone" => null
+			"occurrence" => null
+			"habitat" => null
+			"identificationVariety" => null
+			"setMark" => null
+			"sex" => null
+			"year" => null
+			"chronostratigraphy" => null
+			"eventTime" => null
+			"partType" => null
+			"latestEonOrHighestEonothem" => null
+			"otherCatalogNumbers" => (String) "NHMUK:ecatalogue:3774957"
+			"latestPeriodOrHighestSystem" => null
+			"exsiccatiNumber" => null
+			"centroid" => (Boolean) false
+			"kindOfCollection" => null
+			"specificEpithet" => (String) "atricapilla"
+			"dateRegistered" => null
+			"identificationOther" => null
+			"geodeticDatum" => null
+			"barcode" => null
+			"collectionCode" => (String) "ZOO"
+			"higherGeography" => (String) "England"
+			"latestAgeOrHighestStage" => null
+			"formation" => null
+			"earliestEpochOrLowestSeries" => null
+			"group" => null
+			"highestBiostratigraphicZone" => null
+			"petrologyType" => null
+			"earliestAgeOrLowestStage" => null
+			"created" => (String) "2007-05-28"
+			"country" => (String) "England"
+			"meteoriteType" => null
+			"decimalLongitude" => null
+			"nestShape" => null
+			"relationshipOfResource" => (String) "Parts"
+			"genus" => (String) "Sylvia"
+			"preparationType" => null
+			"clutchSize" => (String) "2"
+			"associatedMedia" => null
+			"phylum" => (String) "Chordata"
+			"subDepartment" => (String) "Aves"
+			"cultivated" => null
+			"hostRock" => null
+			"kindOfObject" => (String) "egg"
+			"higherClassification" => (String) "Animalia; Chordata; Vertebrata; Aves; Passeriformes; Sylviidae; Sylviinae"
+			"ageType" => null
+			"islandGroup" => null
+			"identificationDescription" => null
+			"resuspendedIn" => null
+			"catalogNumber" => (String) "E/2000.1.51"
+			"verbatimLongitude" => null
+			"nestSite" => null
+			"miningDistrict" => null
+			"preparations" => null
+			"identificationQualifier" => null
+			"maximumElevationInMeters" => null
+			"relatedResourceID" => (String) "7fa44b57-4e78-4b3a-87e1-652087360237"
+			"earliestEonOrLowestEonothem" => null
+			"modified" => (String) "2010-02-02"
+			"bed" => null
+			"island" => null
+			"minimumElevationInMeters" => null
+			"totalVolume" => null
+			"maxError" => null
+			"geologyRegion" => null
+			"subgenus" => null
+			"petrologySubtype" => null
+			"expedition" => null
+			"institutionCode" => (String) "NHMUK"
+			"mine" => null
+			"gbifID" => (String) "1056951647"
+			"identifiedBy" => null
+			"earliestPeriodOrLowestSystem" => null
+			"preservative" => null
+			"georeferenceProtocol" => null
+			"recovery" => null
+			"locality" => null
+			"stateProvince" => null
+			"registeredWeight" => null
+			"populationCode" => null
+			"taxonRank" => null
+			"catalogueDescription" => null
+			"depositType" => null
+			"recoveryDate" => null
+			"registeredWeightUnit" => null
+			"typeStatus" => null
+			"scientificNameAuthorship" => (String) "(Linnaeus, 1758)"
+			"class" => (String) "Aves"
+			"collectionKind" => (String) "Egg"
+			"commodity" => null
+			"age" => null
+			"basisOfRecord" => (String) "Specimen"
+			"dateIdentified" => null
+			"observedWeight" => null
+			"registrationCode" => (String) "AV"
+			"recordedBy" => null
+			"_id" => (Integer) 81
+			"extractionMethod" => null
+			"order" => (String) "Passeriformes"
+			"meteoriteClass" => null
+			"labelLocality" => null
+		}
+		2: (java.util.LinkedHashMap[138]) {
+			"minimumDepthInMeters" => null
+			"recordType" => (String) "Egg"
+			"mineralComplex" => null
+			"verbatimLatitude" => null
+			"month" => null
+			"continent" => null
+			"member" => null
+			"collectionName" => null
+			"occurrenceID" => (String) "745a62ae-01ae-4bd5-abe1-0dd161c639a2"
+			"family" => (String) "Sylviidae"
+			"gbifIssue" => null
+			"latestEpochOrHighestSeries" => null
+			"texture" => null
+			"recoveryWeight" => null
+			"maximumDepthInMeters" => null
+			"waterBody" => null
+			"determinations" => null
+			"meteoriteGroup" => null
+			"kingdom" => (String) "Animalia"
+			"decimalLatitude" => null
+			"earliestEraOrLowestErathem" => null
+			"identificationAsRegistered" => null
+			"infraspecificEpithet" => (String) "toklao"
+			"plantDescription" => null
+			"lithostratigraphy" => null
+			"latestEraOrHighestErathem" => null
+			"recordNumber" => null
+			"day" => null
+			"individualCount" => null
+			"donorName" => null
+			"lifeStage" => (String) "egg"
+			"chondriteAchondrite" => null
+			"viceCounty" => null
+			"scientificName" => (String) "Megalurus palustris toklao (Blyth, 1843)"
+			"exsiccati" => null
+			"tectonicProvince" => null
+			"lowestBiostratigraphicZone" => null
+			"occurrence" => null
+			"habitat" => null
+			"identificationVariety" => null
+			"setMark" => null
+			"sex" => null
+			"year" => null
+			"chronostratigraphy" => null
+			"eventTime" => null
+			"partType" => null
+			"latestEonOrHighestEonothem" => null
+			"otherCatalogNumbers" => (String) "NHMUK:ecatalogue:3740091"
+			"latestPeriodOrHighestSystem" => null
+			"exsiccatiNumber" => null
+			"centroid" => (Boolean) false
+			"kindOfCollection" => null
+			"specificEpithet" => (String) "palustris"
+			"dateRegistered" => null
+			"identificationOther" => null
+			"geodeticDatum" => null
+			"barcode" => null
+			"collectionCode" => (String) "ZOO"
+			"higherGeography" => (String) "Myanmar"
+			"latestAgeOrHighestStage" => null
+			"formation" => null
+			"earliestEpochOrLowestSeries" => null
+			"group" => null
+			"highestBiostratigraphicZone" => null
+			"petrologyType" => null
+			"earliestAgeOrLowestStage" => null
+			"created" => (String) "2007-05-28"
+			"country" => (String) "Myanmar"
+			"meteoriteType" => null
+			"decimalLongitude" => null
+			"nestShape" => null
+			"relationshipOfResource" => (String) "Parts"
+			"genus" => (String) "Megalurus"
+			"preparationType" => null
+			"clutchSize" => (String) "2"
+			"associatedMedia" => null
+			"phylum" => (String) "Chordata"
+			"subDepartment" => (String) "Aves"
+			"cultivated" => null
+			"hostRock" => null
+			"kindOfObject" => (String) "egg"
+			"higherClassification" => (String) "Animalia; Chordata; Vertebrata; Aves; Passeriformes; Sylviidae; Megalurinae"
+			"ageType" => null
+			"islandGroup" => null
+			"identificationDescription" => null
+			"resuspendedIn" => null
+			"catalogNumber" => (String) "E/"
+			"verbatimLongitude" => null
+			"nestSite" => null
+			"miningDistrict" => null
+			"preparations" => null
+			"identificationQualifier" => null
+			"maximumElevationInMeters" => null
+			"relatedResourceID" => (String) "745a62ae-01ae-4bd5-abe1-0dd161c639a2"
+			"earliestEonOrLowestEonothem" => null
+			"modified" => (String) "2010-02-03"
+			"bed" => null
+			"island" => null
+			"minimumElevationInMeters" => null
+			"totalVolume" => null
+			"maxError" => null
+			"geologyRegion" => null
+			"subgenus" => null
+			"petrologySubtype" => null
+			"expedition" => null
+			"institutionCode" => (String) "NHMUK"
+			"mine" => null
+			"gbifID" => (String) "1056947622"
+			"identifiedBy" => null
+			"earliestPeriodOrLowestSystem" => null
+			"preservative" => null
+			"georeferenceProtocol" => null
+			"recovery" => null
+			"locality" => null
+			"stateProvince" => null
+			"registeredWeight" => null
+			"populationCode" => null
+			"taxonRank" => null
+			"catalogueDescription" => null
+			"depositType" => null
+			"recoveryDate" => null
+			"registeredWeightUnit" => null
+			"typeStatus" => null
+			"scientificNameAuthorship" => (String) "(Blyth, 1843)"
+			"class" => (String) "Aves"
+			"collectionKind" => (String) "Egg"
+			"commodity" => null
+			"age" => null
+			"basisOfRecord" => (String) "Specimen"
+			"dateIdentified" => null
+			"observedWeight" => null
+			"registrationCode" => (String) "AV"
+			"recordedBy" => null
+			"_id" => (Integer) 79
+			"extractionMethod" => null
+			"order" => (String) "Passeriformes"
+			"meteoriteClass" => null
+			"labelLocality" => null
+		}
+	}
+	"limit" => (String) "3"
+	"total" => (Integer) 31408
+}
