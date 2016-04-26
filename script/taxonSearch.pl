@@ -8,9 +8,11 @@ use Bio::Phylo::PhyloWS::Client::NBA::TaxonSearch;
 my $query;
 GetOptions( 'query=s' => \$query );
 
-# instantiate helper objects
+# instantiate client object
 my $ts  = Bio::Phylo::PhyloWS::Client::NBA::TaxonSearch->new;
 
 # run the query
 my $qr = $ts->get_query_result( -query => $query );
+
+# serialize result set (for example)
 print $qr->to_xml;
